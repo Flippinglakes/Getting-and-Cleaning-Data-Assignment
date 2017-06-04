@@ -63,5 +63,5 @@ write.table(total,"UCIHar_Samsung.txt",row.name=FALSE)
 total2<-total%>%group_by(subject)%>%group_by(activity,add=TRUE)%>% summarize_each(funs(mean),TimeBodyAccMeanX:FourBodyGyroJerkMagStdev)%>%setNames(gsub("^","Mean",names(.)))
 
 # Save the data frame to file
-write.table(total2,"UCIHar_Samsung_summary.txt",row.name=FALSE)
+write.table(total2,"tidaydata.txt",row.name=FALSE)
                                                                     
