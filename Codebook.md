@@ -14,11 +14,11 @@ The measurement names were replaced with more descriptive names. Whilst tidy dat
 
 The activity labels were numerical and were replaced with descriptive names found in the activity_labels.txt file, see description later in this text. 
 
-The dataframe was saved as a .csv file.
+The dataframe was saved as a .txt file.
 
 The dataframe was then grouped by subject and activity using the dplyr package. Means of each measurement were found for each subject-activity group. 
 
-This was presented as a data frame and saved as a .csv file. 
+This was presented as a data frame and saved as a .txt file. 
 
 
 ## Measurement labels
