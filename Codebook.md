@@ -1,4 +1,4 @@
-Code Book
+#Code Book
 
 These datasets were modified from the ‘Human Activity Recognition Using Smartphones’ dataset found at https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip. This dataset contains a test and a train folder, both containing text files which were used to create this data set, and both containing an ‘Inertial Signals’ folder, which was not used.
 
@@ -21,7 +21,7 @@ The dataframe was then grouped by subject and activity using the dplyr package. 
 This was presented as a data frame and saved as a .csv file. 
 
 
-Measurement labels
+##Measurement labels
 
 The following is modified from the features_info.txt found in the ‘Human Activity Recognition Using Smartphones’ found at:  https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
@@ -62,7 +62,7 @@ Four – Fourier transformed data
 
 X, Y, Z – Dimension X, Y or Z
 
-Activity Labels
+##Activity Labels
 
 The meaning of these labels is self-evident. They were simple names, so were kept lower-case, without punctuation marks or abbreviation, as is best for tidy data.
 
