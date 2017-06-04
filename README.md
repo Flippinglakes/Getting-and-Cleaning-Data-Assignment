@@ -20,7 +20,7 @@ This script does the following:
 
 6. Renames the activities
 
-7. Saves the data frame as a .csv file
+7. Saves the data frame as a .txt file
 
 8. Groups the data set by subject and activity variables
 
@@ -28,4 +28,4 @@ This script does the following:
 
 10. Renames the measurements in the table to indicate that they are means
 
-11. Saves this table as a .csv file 
+11. Saves this table as a .txt file 
